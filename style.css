@@ -12,32 +12,32 @@ body {
 
 	.glow {
 		font-size: 50px;
-		color: rgb(254, 254, 254);
+		color: rgb(169, 255, 120);
 		text-align: center;
 		animation: glow 1s ease-in-out infinite alternate;
 	  }
 	  
 	  @-webkit-keyframes glow {
 		from {
-		  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+		  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #c6ffa6, 0 0 40px #c6ffa6, 0 0 50px #c6ffa6, 0 0 60px #c6ffa6, 0 0 70px #c6ffa6;
 		}
 		
 		to {
-		  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+		  text-shadow: 0 0 20px #fff, 0 0 30px #a9c997, 0 0 40px #a9c997, 0 0 50px #a9c997, 0 0 60px #a9c997, 0 0 70px #a9c997, 0 0 80px #a9c997;
 		}
 	  }
 
 hr.hr1 {
-		border-top: 1px dashed red;
-		width: 30%;
+		border-top: 1px dashed green;
+		width: 20%;
 	  }
 hr.hr2 {
-		border: 2px solid red;
+		border: 2px solid green;
 		width: 40%;
 	  }
 .heading { color: #fff;}
 .ip-address p{
-		color: red;
+		color: #62b368;
 		font-weight: bold;
 	}
 #demo {color: red;}
@@ -47,6 +47,7 @@ hr.hr2 {
 			background-color: green;
 			font-weight: bold;
 			text-align: center;
+			color: white;
 		}
 .footer i
 {
